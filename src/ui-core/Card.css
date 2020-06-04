@@ -1,0 +1,16 @@
+@import "./../index.css";
+
+.Card {
+  padding: calc(var(--gutter) * 2);
+  border-radius: var(--border-radius);
+  color: var(--secondary-text-color);
+}
+
+
+.cardInvoice {
+  padding: calc(var(--gutter) * 2);
+  background-color: var(--card-bg-color);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  color: var(--secondary-text-color);
+}

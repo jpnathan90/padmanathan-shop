@@ -1,0 +1,13 @@
+@import "./../index.css";
+
+.App {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: var(--header-height) 1fr;
+  overflow: auto;
+  background-color: var(--secondary-color);
+}
+
+.App__body {
+  background-color: var(--secondary-color);
+}
